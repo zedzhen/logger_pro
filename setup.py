@@ -6,7 +6,7 @@ f.close()
 
 setup(
     name='logger_pro',
-    version='1.0.0',
+    version='1.0.1',
     packages=find_packages(),
     url='https://github.com/zedzhen/logger_pro',
     license='MIT License',

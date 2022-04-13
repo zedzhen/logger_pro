@@ -1,6 +1,7 @@
 # logger_pro
-Модуль для логирования работы функций, использующий декоратор.
-[PyPi](https://pypi.org/project/logger-pro/)
+Модуль для логирования работы функций, использующий декоратор.\
+[PyPi](https://pypi.org/project/logger-pro/)\
+[GitHub](https://github.com/zedzhen/logger_pro)
 
 ## Ограничения
 - Объекты которые вы хотите логировать, не должны содержать атрибут "logger_pro"\

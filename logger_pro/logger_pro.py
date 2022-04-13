@@ -88,7 +88,7 @@ class Logger:
             try:
                 file = filename(self.out_file)
                 makedirs(dirname(file), exist_ok=True)
-                open(self.out_file, mode='a', encoding='utf-8').close()
+                open(file, mode='a', encoding='utf-8').close()
             except (OSError, TypeError, ValueError) as e:
                 raise InitTypeError(f"Parameter 'out_file' must be point to a writable file ({e})")
         if isinstance(self.out_file, TextIOBase):
